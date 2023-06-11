@@ -1,5 +1,5 @@
 class ApiService {
-    constructor(url = "http://localhost:4000/api/"){
+    constructor(url = "http://192.168.1.162:4000/api/"){
         this.url = url;
     }
     async getAllSpells(user_id){

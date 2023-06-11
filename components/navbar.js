@@ -2,11 +2,11 @@ import { View, StyleSheet, Text, Button, Alert } from 'react-native'
 import React from 'react'
 import { TouchableOpacity } from 'react-native';
 
-const Navbar = ({navbar}) => {
+const Navbar = ({navigationbar}) => {
   
   return (
     <View style={styles.navbar}> 
-        {navbar.map((item, i) => 
+        {navigationbar.map((item, i) => 
             <Text key={JSON.stringify({item,i})} style={styles.button} onPress={item.onPress}>{item.title}</Text>
         )}
       </View>
