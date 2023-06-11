@@ -11,7 +11,6 @@ export default function App() {
   const [name, setName] = React.useState('Name')
   const [selectedChoice, setSelectedChoice] = useState('home');
   const [userInfo] = useState({
-    loggedIn: true,
     username: 'User',
   })
   const [navbar] = useState([

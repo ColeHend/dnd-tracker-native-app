@@ -35,7 +35,7 @@ const Navigationbar = ({title,children, selectedChoice, navbar, userInfo, setSel
           trailing={props => (
             <View style={{ flexDirection: "row" }}>
               {
-                userInfo.loggedIn ?
+                userInfo.user_id ?
                 <IconButton
                   icon={props => userInfo.loggedIn ? <Avatar label={userInfo.username} autoColor /> : 
                   null}
