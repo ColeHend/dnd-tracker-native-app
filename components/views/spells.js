@@ -4,7 +4,7 @@ import React from 'react'
 const Spells = () => {
   return (
     <View style={styles.container}>
-      <Text>Spells yeah BOY!</Text>
+      <Text style={styles.text}>Spells yeah BOY!</Text>
     </View>
   )
 }

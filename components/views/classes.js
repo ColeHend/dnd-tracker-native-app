@@ -4,7 +4,7 @@ import React from 'react'
 const Classes = () => {
   return (
     <View style={styles.container}>
-      <Text>Classes</Text>
+      <Text style={styles.text}>Classes</Text>
     </View>
   )
 }
