@@ -6,8 +6,8 @@ const Navbar = ({navbar}) => {
   
   return (
     <View style={styles.navbar}> 
-        {navbar.map((item) => 
-            <Text style={styles.button} onPress={item.onPress}>{item.title}</Text>
+        {navbar.map((item, i) => 
+            <Text key={JSON.stringify({item,i})} style={styles.button} onPress={item.onPress}>{item.title}</Text>
         )}
       </View>
   )

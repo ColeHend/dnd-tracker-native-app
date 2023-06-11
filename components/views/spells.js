@@ -3,8 +3,8 @@ import React from 'react'
 
 const Spells = () => {
   return (
-    <View>
-      <Text>Spells</Text>
+    <View style={styles.container}>
+      <Text>Spells yeah BOY!</Text>
     </View>
   )
 }

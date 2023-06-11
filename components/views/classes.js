@@ -3,7 +3,7 @@ import React from 'react'
 
 const Classes = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text>Classes</Text>
     </View>
   )
