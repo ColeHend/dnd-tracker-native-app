@@ -8,7 +8,6 @@ import Spells from './components/views/spells'
 import Classes from './components/views/classes'
 
 export default function App() {
-  const [name, setName] = React.useState('Name')
   const [selectedChoice, setSelectedChoice] = useState('home');
   const [userInfo] = useState({
     username: 'User',
